@@ -1,1 +1,1 @@
-web: python gcloud.py
+web: python -u gcloud.py
