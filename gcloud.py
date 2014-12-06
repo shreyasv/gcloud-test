@@ -5,7 +5,7 @@ import urlparse
 
 @route('/')
 def index():
-	return foo * 2
+	return val[1]
 
 urlparse.uses_netloc.append("postgres")
 url = urlparse.urlparse(os.environ["DATABASE_URL"])
