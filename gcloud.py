@@ -3,9 +3,7 @@ import os
 
 @route('/')
 def index():
-	print "Hello, World!!!"
-	print foo
-	return
+	return foo
 
 port = int(os.environ.get("PORT",8081))
 print 'PORT %d' % (port)
