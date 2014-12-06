@@ -22,7 +22,7 @@ cursor = conn.cursor()
 cursor.execute("select * from test")
 val = cursor.fetchone()
 print val
-
+print foo
 port = int(os.environ.get("PORT",8081))
 print 'PORT... %d' % (port)
 foo = os.environ.get("FOO", "Could Not Find FOO")
